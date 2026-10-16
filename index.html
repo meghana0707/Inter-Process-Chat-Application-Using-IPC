@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPC Chat Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>IPC Chat</h1>
+            <p>Inter-Process Communication Application</p>
+            <span>● Ready to chat</span>
+        </header>
+
+        <div class="user-section">
+            <label for="username">Your name:</label>
+            <input id="username" value="User 1" maxlength="30">
+        </div>
+
+        <div id="messages" class="messages">
+            <div class="welcome">
+                <h3>Welcome to IPC Chat!</h3>
+                <p>Enter a message below to get started.</p>
+            </div>
+        </div>
+
+        <form id="chat-form">
+            <input id="message-input" placeholder="Type your message..." required>
+            <button type="submit">Send ➤</button>
+        </form>
+
+        <footer>Built using HTML, CSS, JavaScript and C</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
